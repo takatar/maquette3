@@ -1,0 +1,15 @@
+# Export généré par « npm run build » : reconstruit à chaque déploiement Docker.
+out/
+
+# Dépendances et artefacts éventuels
+node_modules/
+npm-debug.log*
+
+# Photographies d'origine (PNG de 2 à 7 Mo, inutilisées par le site publié).
+# Seules les versions optimisées de images/optimized/ sont versionnées.
+# Pour les archiver malgré tout sur GitHub, supprimer la ligne ci-dessous.
+images/*.png
+
+# Système
+.DS_Store
+Thumbs.db

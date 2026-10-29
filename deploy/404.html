@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Page introuvable | Le Mondrian</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 2rem; background: #f7f6f2; color: #14130f;
+      font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 34rem; }
+    .bars { display: flex; gap: .5rem; margin-bottom: 2rem; }
+    .bars span { display: block; width: 2.5rem; height: .4rem; }
+    .bars span:nth-child(1) { background: #1d3ea8; }
+    .bars span:nth-child(2) { background: #e0b500; }
+    .bars span:nth-child(3) { background: #c0392b; }
+    p.label { margin: 0 0 .75rem; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: #1d3ea8; }
+    h1 { margin: 0 0 1rem; font-size: clamp(1.9rem, 5vw, 2.8rem); line-height: 1.15; }
+    p.text { margin: 0 0 2rem; color: #4a4740; }
+    a.button {
+      display: inline-block; padding: .85rem 1.5rem; background: #14130f; color: #f7f6f2;
+      text-decoration: none; font-weight: 600; border-radius: 2rem;
+    }
+    a.button:hover, a.button:focus-visible { background: #1d3ea8; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="bars" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p class="label">Erreur 404</p>
+    <h1>Cette page n'existe pas.</h1>
+    <p class="text">L'adresse demandée est introuvable. La résidence reste accessible depuis l'accueil.</p>
+    <a class="button" href="/">Retour à l'accueil</a>
+  </main>
+</body>
+</html>

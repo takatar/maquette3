@@ -1,0 +1,15 @@
+{
+  "name": "le-mondrian-saly",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site vitrine de démonstration de la résidence Le Mondrian à Saly Portudal",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node scripts/build-static.js",
+    "check": "node tests/site.test.js",
+    "check:browser": "node tests/browser-check.js",
+    "check:static": "node tests/static.test.js",
+    "check:static:browser": "node tests/static.test.js && node tests/browser-check.js --static"
+  }
+}

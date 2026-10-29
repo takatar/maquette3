@@ -1,0 +1,19 @@
+# Contexte de build volontairement minimal : le site publié n'utilise que
+# images/optimized/*.jpg, jamais les PNG d'origine (plusieurs Mo chacun).
+images/*.png
+
+# Artefacts et fichiers locaux inutiles au build
+out
+node_modules
+.git
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+DEPLOIEMENT-COOLIFY.md
+tests/browser-check.js
+tests/site.test.js
+
+# Système
+.DS_Store
+Thumbs.db
