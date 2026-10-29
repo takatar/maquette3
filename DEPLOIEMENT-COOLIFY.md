@@ -47,7 +47,7 @@ Contrôles déjà effectués sur cette configuration : build sans erreur, 4 page
 
 ## 4. Envoyer les fichiers sur GitHub
 
-Le dépôt <https://github.com/takatar/maquette3.git> existe et est vide : le premier `push` crée la branche `main`.
+Le dépôt <https://github.com/takatar/maquette3.git> contient déjà le commit initial sur la branche `main` (33 fichiers versionnés). Les commandes ci-dessous servent à refaire l'opération depuis une autre machine, ou à repartir d'un dossier local neuf.
 
 ```powershell
 cd "c:\Users\arno\Documents\Mondrian\Site web GPT6.1Sol"

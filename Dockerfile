@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1
-
 # --- Étape 1 : construction de l'export statique -----------------------------
 # Le projet n'a aucune dépendance npm : seul Node est nécessaire pour lancer
 # scripts/build-static.js, qui génère out/ (4 pages + assets + photos optimisées).
